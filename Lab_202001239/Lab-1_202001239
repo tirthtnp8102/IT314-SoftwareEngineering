@@ -1,1 +1,57 @@
+# <pre>                  IT314 - Software Engineering </pre>
+
+#### Name       : Patel Tirth Nishitkumar
+#### StudentID  : 202001239
+#### Date       : 03-02-2023
+
+----
+
+## Objective:
+    Identifying Functional and Non-Functional Requirements
+
+----
+## 1. Q.1. Identify FRs and NFRs: The institute has been recently set up to provide state-of-the-art research facilities in the field of Software Engineering. Apart from research scholars (students) and professors, it also includes quite a large number of employees who work on different projects undertaken by the institution. As the size and capacity of the institute is increasing with the time, it has been proposed to develop a Library Information System (LIS) for the benefit of students and employees of the institute. LIS will enable the members to borrow a book (or return it) with ease while sitting at his desk/chamber. The system also enables a member to extend the date of his borrowing if no other booking for that particular book has been made. For the library staff, this system aids them to easily handle day-to-day book transactions. The librarian, who has administrative privileges and complete control over the system, can enter a new record into the system when a new book has been purchased, or remove a record in case any book is taken off the shelf. Any non-member is free to use this system to browse/search books online. However, issuing or returning books is restricted to valid users (members) of LIS only. The final deliverable would be a web application (using the recent HTML 5), which should run only within the institute LAN. Although this reduces security risk of the software to a large extent, care should be taken no confidential information (eg., passwords) is stored in plain text.
+### Functional Requirements
+    	1. Taking out a loan and giving it back.
+	2. The librarian has administrative rights to add new records when a book is bought or erase records when a book is taken from the shelf.
+	3. Permitting a member to prolong the duration of his loan if no other reservations have been made for that specific book.
+	4.Whenever a user registers for the first time, a verification email is issued to that user.
+	5. User authentication each time a user signs in to the system.
+	6.The system must be able to manage many bookings at once.
+	7. Software security risks should be taken into consideration.
+	8. Only authorised users (members) of LIS are permitted to borrow or return books.
+	9. The web application should only be used inside the LAN of the institute.
+    
+### Non-Functional Requirements
+    
+    	1. Passwords and other sensitive data are never saved in plain text.
+	2. Each request should be processed within 10 seconds.
+	3.A website should be able to support 20 million users without experiencing performance issues.
+	4. The programme must be portable. So there are no issues while switching from one OS to another.
+	5. A lot of users should be able to access the website without it losing its functionality.
+	6. Every five minutes, the website should reload its content.
+	7. HTML5 must be used to create the web application.
+----
+## Q.2. Identify scope, features and non-functional aspects of the following problem. Approximately 5% of the world population (or a staggering 466 million people) suffers from disabling hearing loss. We set out to create an impactful solution for this community that addresses some of their everyday needs. Our mobile application uses artificial intelligence to recognize key sound events of interest to this community, such as car horns and babies, where immediate alerts and continual logging are critical for the user. This app is optimized for Android with low-latency so that it works in real-time for use.
+
+### 1. Scope
+    - We are developing an Android app that uses artificial intelligence to identify basic key sounds, such as car horns and people crying for help (such as babies), and immediately alert users via vibration. The app needs to have low latency so that it can be used anywhere, and the AI's predictions need to be accurate.
+    
+### 2. Features
+	1. The forecasts made by the mobile application must be quite accurate.
+	2. The app should alert users when it hears the sounds of an emergency situation.
+	3. The software must also have the ability to run in the background.
+	4. If a major emergency is identified and the user doesn't respond, the information should be forwarded to the person the user has specified.
+	5. The app should consume less power and have a low latency.
+	6. This smartphone application should employ artificial intelligence to find noises.
+
+### 3. Non-Functional aspects
+ 	1. The user's password cannot be stored in the database.
+	2. The app should vibrate to alert the user.
+	3. The software must function around-the-clock and be able to support numerous concurrent users.
+	4. In the event of an emergency, users should be able to utilise the app to communicate their current location to the person they have designated.
+	5. The app should be easy to use and navigate for users who have hearing loss.
+	6. The software needs to be dependable and produce accurate results.
+    
+----
 
